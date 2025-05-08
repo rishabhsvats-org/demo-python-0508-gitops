@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: demo-python-0508-gitops-repository
+spec:
+  url: https://github.com/rishabhsvats-org/demo-python-0508-gitops
